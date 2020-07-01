@@ -1,0 +1,110 @@
+html, body {
+    margin: 25px;
+    
+    
+    padding: 0;
+  }
+ 
+body {
+  background-image: url('bg2.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1{
+color:black
+
+
+}
+.links{
+    color: black;
+    background-color: black;
+    display: flex;
+    align-items: self-start;
+    justify-content: space-evenly;
+}
+.img{
+    
+    display: flex;
+   
+    justify-content: center;
+}
+.logo{
+    display: flex;
+   
+    justify-content: center;
+
+}
+.logo2{
+    display: flex;
+   
+    justify-content: center;
+
+}
+.table{
+display: flex;
+justify-self: start;
+
+
+}
+.logo3{
+    display: flex;
+   
+    justify-content: center;
+
+}
+.logo4{
+    display: flex;
+   
+    justify-content: center;
+
+}
+h2{
+color:red;
+
+}
+.about{
+    border: 10px solid transparent;
+padding: 15px;
+border-image: url(border.png) 30 round;
+}
+h1{
+color: darkblue;
+border: 10px solid transparent;
+padding: 15px;
+border-image: url(pp1.jpg) 30 round;
+}
+.text{
+    color: darkblue;
+    display: flex;
+    justify-content: center;
+}
+
+
+.img :hover img{
+    opacity:0.87564598455;
+    transform: scale(1.15);
+  
+}
+a:link {
+    color: red;
+    text-decoration: none;
+  }
+  a:visited {
+    color:white;
+    text-decoration: none;
+  }
+  a:hover {
+    color: blue;
+   transform: scale(1.15);
+   text-decoration: underline;
+  }
+.email{
+    color: darkblue;
+    font-size: 30px;
+}
+.no{
+    color:darkblue;
+    font-size : 30px;
+}
+  
